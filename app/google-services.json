@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "776252515667",
+    "firebase_url": "https://angrywall-52ee9.firebaseio.com",
+    "project_id": "angrywall-52ee9",
+    "storage_bucket": "angrywall-52ee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776252515667:android:d793c66906e48177",
+        "android_client_info": {
+          "package_name": "com.angrywallpaper.name"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776252515667-iblto9pvbtvtqr39bes759pidm14b2l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angrywallpaper.name",
+            "certificate_hash": "cff3f5137023f3a45d06aaaaef1d5fe045b57149"
+          }
+        },
+        {
+          "client_id": "776252515667-ql619c5qkbln1f7j5sri7e93b6n7fsm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUnNi91UeWAvbcPVSoFaYa5eaJ51NvC0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776252515667-ql619c5qkbln1f7j5sri7e93b6n7fsm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

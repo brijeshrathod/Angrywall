@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/info_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/info_ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_default" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/ripple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/info_ImageView"
+                app:mrl_rippleDelayClick="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <View
+                        android:id="@+id/mySuperView"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#a44b1d9b" />
+
+                    <TextView
+                        android:id="@+id/info_ImageName"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/your_image"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                </RelativeLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/info_ImageView"
+                app:mrl_rippleDelayClick="true">
+
+                <ImageView
+                    android:id="@+id/imageBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignBottom="@+id/info_ImageView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <LinearLayout
+                android:id="@+id/xxxLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ripple"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:baselineAligned="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <com.github.jorgecastilloprz.FABProgressCircle
+                        android:id="@+id/btsetWallOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/btsetWallIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_image_black_24dp"
+                            app:borderWidth="0dp"
+                            app:elevation="3dp"
+                            app:rippleColor="@color/colorAccent" />
+
+                    </com.github.jorgecastilloprz.FABProgressCircle>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <com.github.jorgecastilloprz.FABProgressCircle
+                        android:id="@+id/btsaveWallOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentStart="true">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/btsaveWallIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_file_download_black_24dp"
+                            app:borderWidth="0dp"
+                            app:elevation="3dp"
+                            app:rippleColor="@color/colorAccent" />
+
+                    </com.github.jorgecastilloprz.FABProgressCircle>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.33">
+
+                    <com.github.jorgecastilloprz.FABProgressCircle
+                        android:id="@+id/btshareWallOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/btshareWallIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_share_black_24dp"
+                            app:borderWidth="0dp"
+                            app:elevation="3dp"
+                            app:rippleColor="@color/colorAccent" />
+
+                    </com.github.jorgecastilloprz.FABProgressCircle>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7612d2</color>
+    <color name="colorPrimaryDark">#6712b4</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="customDialogBackground">#b5000000</color>
+    <color name="windowBackground">#e7e7e7</color>
+    <color name="semi_transparent">#96000000</color>
+    <color name="white">#ffffff</color>
+</resources>

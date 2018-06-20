@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AngryWall</string>
+
+    <string name="no_internet_desc">Double check your network connections.\nMake sure it have Internet access!</string>
+    <string name="retry">Retry</string>
+    <string name="your_image">Your Image</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9359996697857709/1958974426</string>
+</resources>
